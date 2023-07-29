@@ -1,0 +1,18 @@
+1. Loyiha nomi bilan githubda repository yaratish
+2. Yaratilgan repositoryni kampyuterga clone qilish kk
+3. Fayl ochilib loyiha kodlari yozib boshlanadi (Vs code, Sublime text, pycharim)
+4. Vertual muhit yaratish/ active qilish
+5. Loyiha uchun kerakli paketlar o'rnatiladi
+6. O'rnatilgan paketlar ro'yhati requirements.txt ga yoziladi
+7. Loyiha uchun configuratsiya sozlanadi
+8. Loyiha applicationlari yaratiladi
+9. Yaratilgan yangi application configuratsiyaga sozlanishi kk
+10. Yaratilgan yangi application uchun ulrs.py fayli yaratiladi va asosiy configuratsiya qismiga qo'shiladi
+11. Yaratilgan yangi applicationga views.py orqali funksiya yoki class lar yaratiladi
+12. Yaratilgan umumiy loyiha uchun templates papkasi yaratiladi
+13. Yaratilgan umumiy loyiha uchun static papkasi yaratiladi
+14. Loyihani Frontend qismi uchun tayyor shablon tanlash kk
+15. Templates papkasi ichiga 2 ta papka yaratiladi - layouts va pages papkalari
+16. Asosiy Frontend shablonidagi index.html fayli templates papkasini ichiga base.html ko'rinishida joylashtiriladi
+17. Asosiy Frontend shablonidagi qolgan sahifalar templates papkasini ichidagi pages papkasiga joylashtiriladi
+18. Django settings ga templates papkasi manzili ko'rsatiladi
