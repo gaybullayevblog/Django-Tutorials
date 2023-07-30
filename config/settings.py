@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # Local Apps
-    'hello_world.apps.HelloWorldConfig'
+    # 'hello_world.apps.HelloWorldConfig',
+    'my_blog.apps.MyBlogConfig'
 ]
 
 MIDDLEWARE = [

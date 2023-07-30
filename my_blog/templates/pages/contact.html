@@ -1,0 +1,15 @@
+{% extends "base.html" %} 
+{% block contact%}
+
+<h1>Contact</h1>
+{% comment %} {{ data }} {% endcomment %}
+
+{% for i in data %}
+<h1>{{ i.location }}</h1>
+<h2>{{ i.email }}</h2>
+<h3>{{ i.phone }}</h3>
+<h4>{{ i.name }}</h4>
+
+{% endfor %}
+
+{% endblock contact%}
