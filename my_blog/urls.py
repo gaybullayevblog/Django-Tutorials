@@ -1,12 +1,12 @@
 from django.urls import path
-
-from . import views
+from .views import *
 
 urlpatterns = [
-    path("", views.home, name="home"),
-    path("about/", views.about, name="about"),
-    path("portfolio/", views.portfolio, name="portfolio"),
-    path("blog/", views.blog, name="blog"),
-    path("contact/", views.contact, name="contact"),
+    path("", home, name="home"),
+    path("about/", about, name="about"),
+    path("portfolio/", portfolio, name="portfolio"),
+    path("blog/", BlogPageView.as_view(), name="blog"),
+    path("blog/<pk>", DetailBlogView.as_view(), name="blog_single"),
+    path("contact/", contact, name="contact"),
 
 ]

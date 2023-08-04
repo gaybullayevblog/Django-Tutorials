@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     # Local Apps
     # 'hello_world.apps.HelloWorldConfig',
     'my_blog.apps.MyBlogConfig'
+    # 'barbershop.apps.BarbershopConfig'
 ]
 
 MIDDLEWARE = [
