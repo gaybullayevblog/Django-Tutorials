@@ -1,0 +1,16 @@
+<html>
+    <head>
+      <title>Demo</title>
+    </head>
+    <body>
+    <header>
+        <a href="{% url 'main' %}">Main</a>
+        <a href="{% url 'forms' %}">Forms</a>
+    </header>
+      <h1>
+        {{ data }}
+      </h1>
+
+      {% block forms %}{% endblock forms %}
+    </body>
+</html>

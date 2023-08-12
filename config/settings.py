@@ -39,8 +39,11 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # Local Apps
     # 'hello_world.apps.HelloWorldConfig',
-    'my_blog.apps.MyBlogConfig'
+    # 'my_blog.apps.MyBlogConfig'
     # 'barbershop.apps.BarbershopConfig'
+    # 'models.apps.ModelsConfig'
+    # 'forms.apps.FormsConfig'
+    'todo.apps.TodoConfig'
 ]
 
 MIDDLEWARE = [
