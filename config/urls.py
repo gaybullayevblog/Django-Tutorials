@@ -21,8 +21,9 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     # path('', include('hello_worl  d.urls')),
     # path('', include('my_blog.urls'))
-    path('', include('barbershop.urls'))
+    # path('', include('barbershop.urls'))
     # path('', include('models.urls'))
     # path('', include('forms.urls'))
     # path('', include('todo.urls'))
+    path('', include('paginator.urls'))
 ]
