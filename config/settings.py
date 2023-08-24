@@ -40,8 +40,8 @@ INSTALLED_APPS = [
     # Local Apps
     # 'hello_world.apps.HelloWorldConfig',
     # 'my_blog.apps.MyBlogConfig'
-    # 'barbershop.apps.BarbershopConfig'
-    'models.apps.ModelsConfig'
+    'barbershop.apps.BarbershopConfig'
+    # 'models.apps.ModelsConfig'
     # 'forms.apps.FormsConfig'
     # 'todo.apps.TodoConfig'
 ]
