@@ -45,7 +45,8 @@ INSTALLED_APPS = [
     # 'models.apps.ModelsConfig'
     # 'forms.apps.FormsConfig'
     # 'todo.apps.TodoConfig'
-    'paginator.apps.PaginatorConfig'
+    # 'paginator.apps.PaginatorConfig'
+    'user.apps.UserConfig'
 ]
 
 MIDDLEWARE = [
