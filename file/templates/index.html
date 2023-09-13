@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>User</title>
+</head>
+<body>
+
+{% for i in car %}
+  <div>
+    <img src="{{ i.photo.url }}" width="400px"/>
+    <h1>Name: {{ i.name }}</h1>
+    <p>Price: {{ i.price }}</p>
+    <a href="{{ i.specs.url }}" download>Download more info</a>
+  </div>
+{% endfor %}
+
+</body>
+</html>
